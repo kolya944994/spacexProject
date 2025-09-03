@@ -1,6 +1,6 @@
 import { SpacexContext } from '../../contexts/spacexContext/SpacexContext'
 import styles from './ModalWindow.module.css'
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import ReactDOM from 'react-dom'
 
 function ModalWindow() {

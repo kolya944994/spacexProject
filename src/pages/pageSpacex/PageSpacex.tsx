@@ -1,7 +1,7 @@
 import Content from '../../components/content/Content'
 import ModalWindow from '../../components/modalWindow/ModalWindow'
 import { SpacexContext } from '../../contexts/spacexContext/SpacexContext'
-import styles from './PageSpacex.module.css'
+
 import { useContext, useEffect } from 'react'
 
 function PageSpacex() {

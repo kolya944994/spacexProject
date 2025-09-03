@@ -2,7 +2,7 @@ import { SpacexContext } from '../../contexts/spacexContext/SpacexContext'
 import MyButton from '../../ui/button/MyButton'
 import MyCart from '../../ui/cart/MyCart'
 import styles from './Content.module.css'
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 
 function Content() {
 	const context = useContext(SpacexContext)

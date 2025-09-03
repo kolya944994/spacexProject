@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { screen, render, fireEvent } from '@testing-library/react'
+import { screen, render } from '@testing-library/react'
 import { MantineProvider } from '@mantine/core'
 import { SpacexProvider } from '../../contexts/spacexContext/SpacexContext'
 import { StrictMode } from 'react'
